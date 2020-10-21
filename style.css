@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-
+:root {
+  --background: #101010;
+  --text: whitesmoke;
+}
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +34,7 @@ body {
   bottom: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #181818;
+  background-color: #181818de;
   z-index: 999;
   visibility: visible;
   overflow: hidden;
